@@ -64,3 +64,10 @@ body{
     font-size: 60px;
     letter-spacing: 2px;
 }
+
+.card .title h3{
+    font-family: "Eczar", serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
