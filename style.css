@@ -76,6 +76,7 @@ body{
 
 .card .images{
     z-index: 2;
+    transform-style: preserve-3d;
 }
 
 .card .images .santa{
