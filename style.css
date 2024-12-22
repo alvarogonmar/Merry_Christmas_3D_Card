@@ -71,3 +71,20 @@ body{
     text-transform: uppercase;
     margin-top: 10px;
 }
+
+.card .images{
+    z-index: 2;
+}
+
+.card .images .santa{
+    z-index: 3;
+    position: absolute;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.card .images .tree{
+    z-index: 2;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
