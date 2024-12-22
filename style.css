@@ -23,6 +23,7 @@ body{
     align-items: center;
     width: 700px;
     height: 750px;
+    perspective: 1200px;
 }
 
 .card{
