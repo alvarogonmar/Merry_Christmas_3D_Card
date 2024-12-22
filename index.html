@@ -26,6 +26,9 @@
         <script type="text/javascript">
             const container = document.querySelector(".container");
             const card = document.querySelector(".card");
+            const title = document.querySelector(".title")
+            const santa = document.querySelector(".santa")
+            const tree = document.querySelector(".tree")
 
             // card rotate on mouse move
             container.addEventListener("mousemove", (rotate) => {
@@ -33,6 +36,10 @@
                 let y = (innerHeight / 2 - rotate.pageY) / 15;
 
                 card.style.transform = "rotateY(" + x + "deg) rotateX(" + y + "deg)";
+            });
+
+            container.addEventListener("mouseover", () => {
+                title.style.transform = "translate3d(0, 0, 160px)";
             })
         </script>
     </body>

@@ -33,6 +33,7 @@ body{
     align-items: center;
     width: 450px;
     height: 600px;
+    transform-style: preserve-3d;
 }
 
 .card .card-bg{
