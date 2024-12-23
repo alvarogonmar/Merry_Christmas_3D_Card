@@ -92,16 +92,16 @@ body{
     transition: all 0.3s ease-out;
 }
 
-/* Nieve */
+/* Snow */
 #snow-container {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    pointer-events: none; /* Evita que interfiera con los clics */
+    pointer-events: none;
     overflow: hidden;
-    z-index: 10; /* Asegúrate de que esté sobre el fondo */
+    z-index: 10;
 }
 
 .snowflake {
