@@ -91,3 +91,35 @@ body{
     width: 400px;
     transition: all 0.3s ease-out;
 }
+
+/* Nieve */
+#snow-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Evita que interfiera con los clics */
+    overflow: hidden;
+    z-index: 10; /* Asegúrate de que esté sobre el fondo */
+}
+
+.snowflake {
+    position: absolute;
+    top: -10px;
+    color: white;
+    font-size: 10px;
+    opacity: 0.8;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0) translateX(0);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(100vh) translateX(calc(50vw - 25vw));
+        opacity: 0;
+    }
+}
